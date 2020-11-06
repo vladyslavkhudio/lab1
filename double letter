@@ -1,0 +1,6 @@
+b = input()
+for a in b:
+    a = a * 2
+    if a == '  ':
+        a = a.replace('  ', ' ')
+    print(a, end='')
