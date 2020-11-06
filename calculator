@@ -1,0 +1,17 @@
+a = float(input('Num1 = '))
+b = float(input('Num2 = '))
+c = input('Choose operation(+, -, *, /): ')
+
+if c == '+':
+    print(a+b)
+elif c == '-':
+    print(a-b)
+elif c == '*':
+    print(a*b)
+elif c == '/':
+    if b == 0:
+        print('Error!')
+    else:
+        print(a/b)
+else:
+    print('Invalid operation')
