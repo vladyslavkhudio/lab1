@@ -1,0 +1,13 @@
+a = input('Enter the text: ')
+alphabet = '12345678901234567890abcdefghijklmnopqrstuvwxyzabcdeабвгґдеєжзиіїйклмнопрстуфхцчшщьюяабвгґде  '
+encr = ''
+a = a.lower()
+
+for i in a:
+    pos = alphabet.find(i)
+    npos = pos+1
+    if i in alphabet:
+        encr += alphabet[npos]
+    else:
+        encr += i
+print(encr)
