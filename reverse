@@ -1,5 +1,0 @@
-text = input()
-reverse = ""
-for a in text.split():
-    reverse = '{} {}'.format(reverse, a[::-1])
-print(reverse)
